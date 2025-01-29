@@ -23632,15 +23632,15 @@ video:hover {
   backdrop-filter: blur(30px);
 }
 
-/* .test::before {
+.test::after {
   content: "";
-  height: 200px;  
-  width: 200px;
+  height: 50px;  
+  width: 50px;
   border-radius: 50%;
   position: absolute;
   top: 10px;  
   left: 10px;  
   z-index: -1;
   background: rgba(255, 165, 0, 0.2);  
-  filter: blur(40px);  
-} */
+  /* filter: blur(40px);   */
+}
