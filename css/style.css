@@ -23653,3 +23653,21 @@ video:hover {
 .banner-shadow{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+/* navbar hover */
+
+
+#mainmenu li::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: green; 
+  transition: all 0.5s ease-in-out;
+}
+
+#mainmenu li:hover::before {
+  width: 100%;
+  
+}
