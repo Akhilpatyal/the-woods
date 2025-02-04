@@ -23671,3 +23671,23 @@ video:hover {
   width: 100%;
   
 }
+/* images media query */
+/* Mobile devices (768px and below) */
+/* @media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+  .screen {
+    display: none;
+  }
+} */
+
+/* Tablets, Laptops, and Desktops (769px and above) */
+/* @media (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  .screen {
+    display: block;
+  }
+} */
