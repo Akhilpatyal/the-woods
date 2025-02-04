@@ -23716,11 +23716,8 @@ video:hover {
   footer .widget{
     text-align: center;
   }
-  .text{
-    font-size:8px;
-    margin: 0px;
+  .none{
+    display: none;
   }
-  .text img{
-   width: 30px;
-  }
+
 }
