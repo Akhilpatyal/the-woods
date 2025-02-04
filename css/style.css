@@ -23650,9 +23650,11 @@ video:hover {
   filter: brightness(0.6);
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-.banner-shadow{
+
+.banner-shadow {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 /* navbar hover */
 
 
@@ -23663,14 +23665,15 @@ video:hover {
   left: 0;
   width: 0;
   height: 4px;
-  background: green; 
+  background: green;
   transition: all 0.5s ease-in-out;
 }
 
 #mainmenu li:hover::before {
   width: 100%;
-  
+
 }
+
 /* images media query */
 /* Mobile devices (768px and below) */
 /* @media (max-width: 768px) {
@@ -23691,3 +23694,33 @@ video:hover {
     display: block;
   }
 } */
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9;
+  background-color: #EDBFFF;
+  mix-blend-mode: difference;
+  transform: translate(-50%, -50%);
+  transition: background-image ease 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .dot {
+    display: none;
+  }
+  footer .widget{
+    text-align: center;
+  }
+  .text{
+    font-size:8px;
+    margin: 0px;
+  }
+  .text img{
+   width: 30px;
+  }
+}
