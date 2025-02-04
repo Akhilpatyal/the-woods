@@ -2240,6 +2240,7 @@ header.header-light .h-phone span {
 
 .menu_side_area .btn-line {
   display: inline-block;
+
 }
 
 /* topbar widget */
@@ -23720,4 +23721,8 @@ video:hover {
     display: none;
   }
 
+}
+.accordion-section-content p{
+  /* color: #fff; */
+  font-weight: 600;
 }

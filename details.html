@@ -23,7 +23,7 @@
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
 
     <!-- Demo styles -->
-    
+
 </head>
 
 <body>
@@ -54,23 +54,21 @@
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainemenu begin -->
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a>
+                                    <li><a class="menu-item" href="#content">Home</a>
                                     </li>
-                                    <li><a class="menu-item" href="about.html">About</a>
+                                    <li><a class="menu-item" href="#d-about">About</a>
                                     </li>
-                                  
-                                    <li><a class="menu-item" href="projects.html">Projects</a>
-                                       
+
+                                    <li><a class="menu-item" href="#d-gallery">Gallery</a>
+
                                     </li>
-                                    <li><a class="menu-item" href="specification.html">Specification</a>
-                                      
-                                    </li>
-                                    <li><a class="menu-item" href="price.html">Price</a>
-                                      
+
+                                    <li><a class="menu-item" href="#price">Price</a>
+
                                     </li>
                                     <!-- <li><a class="menu-item" href="shop-homepage.html">Shop</a></li> -->
                                     <li><a class="menu-item" href="blogs.html">Blog</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                    <li><a class="menu-item" href="#contact">Contact</a></li>
                                 </ul>
                                 <!-- mainmenu end -->
                             </div>
@@ -97,7 +95,8 @@
 
             <!--<div class="de_ribbon d-ribbon wow fadeInDown animated" data-wow-delay="1.5s">SAVE 50%</div>-->
 
-            <section id="section-hero" class="section-dark text-light bg-dark-1 jarallax banner-shadow" aria-label="section">
+            <section id="section-hero" class="section-dark text-light bg-dark-1 jarallax banner-shadow"
+                aria-label="section">
                 <img src="https://cdn.pixabay.com/photo/2017/12/11/13/24/interior-3012218_960_720.png"
                     class="jarallax-img" alt="" />
                 <div class="container relative z-2">
@@ -155,7 +154,7 @@
                 <div class="de-overlay"></div>
             </section>
 
-            <section>
+            <section id="d-about">
                 <div class="container relative z-1">
                     <div class="row g-4 gx-5 align-items-center">
                         <div class="col-lg-6">
@@ -203,10 +202,10 @@
                     </div>
                 </div>
             </section>
-           
+
 
             <!-- Gallery -->
-            <section class="jarallax">
+            <section class="jarallax" id="d-gallery">
                 <img src="images/background/11.webp" class="jarallax-img" alt="" />
 
                 <section class="p-4">
@@ -302,71 +301,86 @@
             <!-- videos -->
             <section class="bg-light no-top no-bottom overflow-hidden">
                 <div class="container-fluid position-relative half-fluid">
-                  <div class="container">
-                    <div class="row">
-                      <!-- Image -->
-                      <div class="col-lg-6 position-lg-absolute left-half h-100">
-                        <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-                            <div class="player invert bg-color-2 no-border circle wow scaleIn"><span></span></div>
-                        </div>
-                        <div class="image" data-bgimage="url(https://cdn.pixabay.com/photo/2018/05/25/17/52/home-3429674_1280.jpg) center"></div>
-                      </div>
-                      <!-- Text -->
-                      <div class="col-lg-6 offset-lg-6">
-                            <div class="spacer-single sm-hide"></div>
-                            <div class="spacer-double"></div>
-                            <div class="ps-lg-5">
-                                <div class="subtitle wow fadeInUp mb-3">Step Inside </div>
-                                <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">A Stunning <span class="id-color-2">1 BHK Apartment</span></h2>
-                                <p class="wow fadeInUp">As you walk around spaces bathed in glorious sunshine and cooled by crisp, clean air, you’ll see firsthand the impeccable fit and finishes.Look out of the window and let your mind and eyes take in the wonderful vistas that Mother Nature has painted at leisure. Rejoice in the fact that you’ve taken one of the best decisions of your life, and can call The Woods home.</p>
-                                <div class="spacer-10"></div>
-                                <a class="btn-main fx-slide wow fadeInUp" href="contact.html"><span>Get In Touch</span></a>
+                    <div class="container">
+                        <div class="row">
+                            <!-- Image -->
+                            <div class="col-lg-6 position-lg-absolute left-half h-100">
+                                <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
+                                    <div class="player invert bg-color-2 no-border circle wow scaleIn"><span></span>
+                                    </div>
+                                </div>
+                                <div class="image"
+                                    data-bgimage="url(https://cdn.pixabay.com/photo/2018/05/25/17/52/home-3429674_1280.jpg) center">
+                                </div>
                             </div>
-                            <div class="spacer-single sm-hide"></div>
-                            <div class="spacer-double"></div>
-                      </div>
+                            <!-- Text -->
+                            <div class="col-lg-6 offset-lg-6">
+                                <div class="spacer-single sm-hide"></div>
+                                <div class="spacer-double"></div>
+                                <div class="ps-lg-5">
+                                    <div class="subtitle wow fadeInUp mb-3">Step Inside </div>
+                                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">A Stunning <span
+                                            class="id-color-2">1 BHK Apartment</span></h2>
+                                    <p class="wow fadeInUp">As you walk around spaces bathed in glorious sunshine and
+                                        cooled by crisp, clean air, you’ll see firsthand the impeccable fit and
+                                        finishes.Look out of the window and let your mind and eyes take in the wonderful
+                                        vistas that Mother Nature has painted at leisure. Rejoice in the fact that
+                                        you’ve taken one of the best decisions of your life, and can call The Woods
+                                        home.</p>
+                                    <div class="spacer-10"></div>
+                                    <a class="btn-main fx-slide wow fadeInUp" href="contact.html"><span>Get In
+                                            Touch</span></a>
+                                </div>
+                                <div class="spacer-single sm-hide"></div>
+                                <div class="spacer-double"></div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </section>
 
             <!-- Prices begin -->
-            <section class="text-dark relative">
+            <section class="text-dark relative" id="price">
                 <div class="container relative z-1">
+                    <h2 class="text-uppercase wow fadeInUp text-center">
+                        Price
+
+                    </h2>
                     <div class="row g-4 gx-5 align-items-center">
                         <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
-                        
-                                <div class="relative overflow-hidden bg-light p-30 pb-70  rounded-1 jarallax text-light " style="height: 100vh;">
-                                    <img src="images/misc/5.webp" class="jarallax-img" alt="">
-                                    <div class="de-overlay op-5"></div>
-                                    <div class="text-center mb-3 relative z-2">
-                                        <img src="images/logo-icon-color.webp" class="w-80px mb-3" alt="">
-                                        <h4>Premium</h4>
-                                        <div class="spacer-30"></div>
-                                        <div class=""></div>
-                                        <div class="fw-bold">
-                                            <span class="fs-64 fw-bold">1 BHK FLAT</span>
-                                        </div>
-                                        <div class="fw-600">/Area - 750 sq. ft</div>
-                                        <div class="spacer-20"></div>
+
+                            <div class="relative overflow-hidden bg-light p-30 pb-70  rounded-1 jarallax text-light "
+                                style="height: 100vh;">
+                                <img src="images/misc/5.webp" class="jarallax-img" alt="">
+                                <div class="de-overlay op-5"></div>
+                                <div class="text-center mb-3 relative z-2">
+                                    <img src="images/logo-icon-color.webp" class="w-80px mb-3" alt="">
+                                    <h4>Premium</h4>
+                                    <div class="spacer-30"></div>
+                                    <div class=""></div>
+                                    <div class="fw-bold">
+                                        <span class="fs-64 fw-bold">1 BHK FLAT</span>
                                     </div>
-    
-                                    <h5 class="mb-2 relative z-2">Services Included</h5>
-                                    <ul class="ul-style-2">
-                                        <li>High-speed automatic lift in every block with automatic rescue device.</li>
-                                        <li>Seasonal flower planting and bed re-design</li>
-                                        <li>TERRACES/ BALCONIES/ VERANDAH</li>
-                                        <li>LOBBY/PASSAGE/ STAIRS & LIFT</li>
-                                        <li>LIVING ROOM,DINING ROOM & LOUNGE</li>
-                                        <li>Customized garden care based on client preferences</li>
-                                    </ul>
+                                    <div class="fw-600">/Area - 750 sq. ft</div>
                                     <div class="spacer-20"></div>
-    
-                                    <div class="abs abs-center w-100 bottom-0 mb-5 px-5">
-                                        <a class="btn-main w-100" href="#">Make A Booking</a>
-                                    </div>
                                 </div>
-                            
+
+                                <h5 class="mb-2 relative z-2">Services Included</h5>
+                                <ul class="ul-style-2">
+                                    <li>High-speed automatic lift in every block with automatic rescue device.</li>
+                                    <li>Seasonal flower planting and bed re-design</li>
+                                    <li>TERRACES/ BALCONIES/ VERANDAH</li>
+                                    <li>LOBBY/PASSAGE/ STAIRS & LIFT</li>
+                                    <li>LIVING ROOM,DINING ROOM & LOUNGE</li>
+                                    <li>Customized garden care based on client preferences</li>
+                                </ul>
+                                <div class="spacer-20"></div>
+
+                                <div class="abs abs-center w-100 bottom-0 mb-5 px-5">
+                                    <a class="btn-main w-100" href="#">Make A Booking</a>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="col-lg-6">
@@ -377,63 +391,73 @@
                                         <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">01</div>
                                         <div>
                                             <h4 class="text-light fs-24 lh-1-3">Expertise and<br>Experience</h4>
-                                            <p class="mb-0 text-light">With years of hands-on experience, our team of professional gardeners and landscapers bring a wealth of knowledge to every project.</p>
+                                            <p class="mb-0 text-light">With years of hands-on experience, our team of
+                                                professional gardeners and landscapers bring a wealth of knowledge to
+                                                every project.</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-md-6 wow fadeInUp">
                                     <div class="relative h-100 bg-dark-2 text-light padding30 rounded-1">
                                         <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
                                         <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">02</div>
                                         <div>
                                             <h4 class="fs-24 lh-1-3">Personalized<br>Service</h4>
-                                            <p class="mb-0 text-light">We believe that every garden is unique, just like its owner. We take the time to understand your vision, preferences, and the specific needs.</p>
+                                            <p class="mb-0 text-light">We believe that every garden is unique, just like
+                                                its owner. We take the time to understand your vision, preferences, and
+                                                the specific needs.</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-md-6 wow fadeInUp">
                                     <div class="relative h-100 bg-dark-2 text-light padding30 rounded-1">
                                         <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
                                         <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">03</div>
                                         <div>
                                             <h4 class="fs-24 lh-1-3">Comprehensive<br>Solutions</h4>
-                                            <p class="mb-0 text-light">From garden design and installation to regular maintenance and specialty services, we offer a full range of garden services.</p>
+                                            <p class="mb-0 text-light">From garden design and installation to regular
+                                                maintenance and specialty services, we offer a full range of garden
+                                                services.</p>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-md-6 wow fadeInUp">
                                     <div class="relative h-100 bg-color-2 text-light padding30 rounded-1">
                                         <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
                                         <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">04</div>
                                         <div>
                                             <h4 class="fs-24 lh-1-3">Quality<br>Workmanship</h4>
-                                            <p class="mb-0 text-light">Our commitment to quality is evident in every service we provide. We use only the best materials, plants, and tools to your garden.</p>
+                                            <p class="mb-0 text-light">Our commitment to quality is evident in every
+                                                service we provide. We use only the best materials, plants, and tools to
+                                                your garden.</p>
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
             <!-- Prices end -->
 
             <!-- contact  -->
-             
-            <section class="bg-light">
+
+            <section class="bg-light" id="contact">
                 <div class="container">
-                  
+
                     <div class="row g-4">
                         <div class="col-lg-6">
                             <div>
                                 <h3 class="wow fadeInUp ">Send Your Message</h3>
-    
-                                <p>Whether you have a question, a suggestion, or just want to say hello, this is the place to do it. Please fill out the form below with your details and message, and we'll get back to you as soon as possible.</p>
+
+                                <p>Whether you have a question, a suggestion, or just want to say hello, this is the
+                                    place to do it. Please fill out the form below with your details and message, and
+                                    we'll get back to you as soon as possible.</p>
                             </div>
 
                             <div class="spacer-single"></div>
@@ -443,33 +467,38 @@
                                     <div class="col-sm-6">
                                         <div class=" relative">
                                             <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6859.971359328502!2d77.06774769201847!3d30.88534281265685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f869de3ad66b3%3A0x3ef47ed6f1b0de3!2sThe%20Woods%20Barog!5e0!3m2!1sen!2sin!4v1737976695195!5m2!1sen!2sin"
-                                            width="100%" height="350" allowfullscreen="" loading="lazy"
-                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                            
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6859.971359328502!2d77.06774769201847!3d30.88534281265685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f869de3ad66b3%3A0x3ef47ed6f1b0de3!2sThe%20Woods%20Barog!5e0!3m2!1sen!2sin!4v1737976695195!5m2!1sen!2sin"
+                                                width="100%" height="350" allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                                         </div>
-                                    </div>   
+                                    </div>
                                     <div class="col-sm-6 relative">
                                         <div class="p-30">
-                                            <div class="fw-bold text-dark"><i class="icofont-clock-time me-2 id-color-2"></i>We're Open</div>
+                                            <div class="fw-bold text-dark"><i
+                                                    class="icofont-clock-time me-2 id-color-2"></i>We're Open</div>
                                             Monday - Friday 08.00 - 18.00
 
                                             <div class="spacer-20"></div>
 
-                                            <div class="fw-bold text-dark"><i class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
-                                             D-128, East of Kailash, New Delhi - 110065, NY
+                                            <div class="fw-bold text-dark"><i
+                                                    class="icofont-location-pin me-2 id-color-2"></i>Office Location
+                                            </div>
+                                            D-128, East of Kailash, New Delhi - 110065, NY
 
                                             <div class="spacer-20"></div>
 
-                                            <div class="fw-bold text-dark"><i class="icofont-phone me-2 id-color-2"></i>Call Us Directly</div>
+                                            <div class="fw-bold text-dark"><i
+                                                    class="icofont-phone me-2 id-color-2"></i>Call Us Directly</div>
                                             +1 123 456 789
 
                                             <div class="spacer-20"></div>
 
-                                            <div class="fw-bold text-dark"><i class="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
-                                            contact@thewoodsbarog.com                                            
+                                            <div class="fw-bold text-dark"><i
+                                                    class="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
+                                            contact@thewoodsbarog.com
                                         </div>
-                                    </div>                             
+                                    </div>
                                 </div>
                             </div>
 
@@ -478,41 +507,49 @@
                         <div class="col-lg-6">
                             <h1 class="text-center">Get in Touch</h1>
                             <div class="p-4 rounded-10px">
-                                <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="#">
-                                    
+                                <form name="contactForm" id="contact_form" class="position-relative z1000" method="post"
+                                    action="#">
+
                                     <div class="field-set">
-                                        <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+                                        <input type="text" name="Name" id="name" class="form-control"
+                                            placeholder="Your Name" required>
                                     </div>
 
                                     <div class="field-set">
-                                        <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                        <input type="text" name="Email" id="email" class="form-control"
+                                            placeholder="Your Email" required>
                                     </div>
 
                                     <div class="field-set">
-                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                                        <input type="text" name="phone" id="phone" class="form-control"
+                                            placeholder="Your Phone" required>
                                     </div>
                                     <div class="field-set">
-                                        <input type="text" name="City" id="city" class="form-control" placeholder="Your City" required>
+                                        <input type="text" name="City" id="city" class="form-control"
+                                            placeholder="Your City" required>
                                     </div>
                                     <div class="field-set">
-                                        <input type="text" name="State" id="state" class="form-control" placeholder="Your State" required>
+                                        <input type="text" name="State" id="state" class="form-control"
+                                            placeholder="Your State" required>
                                     </div>
                                     <div class="field-set">
-                                        <input type="text" name="Address" id="address" class="form-control" placeholder="Your address" required>
+                                        <input type="text" name="Address" id="address" class="form-control"
+                                            placeholder="Your address" required>
                                     </div>
 
                                     <!-- <div class="field-set mb20">
                                         <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
                                     </div> -->
-                                        
-                                    
-                                    
+
+
+
                                     <div id='submit' class="mt20">
                                         <input type='submit' id='send_message' value='Send Message' class="btn-main">
                                     </div>
 
                                     <div id="success_message" class='success'>
-                                        Your message has been sent successfully. Refresh this page if you want to send more messages.
+                                        Your message has been sent successfully. Refresh this page if you want to send
+                                        more messages.
                                     </div>
                                     <div id="error_message" class='error'>
                                         Sorry there was an error sending your form.
@@ -520,11 +557,86 @@
                                 </form>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-            </section>      
+            </section>
             <!-- content end -->
+            <!-- faQs -->
+            <section class="jarallax" style="backdrop-filter: brightness(0.7);">
+                <div class="container ">
+                    <img src="https://cdn.pixabay.com/photo/2021/10/18/19/04/mountains-6721870_1280.jpg" alt=""
+                        class="jarallax-img" style="opacity: 0.3;" />
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3 text-center">
+                            <div class="subtitle wow fadeInUp mb-3">Do you have</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Any Questions</h2>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 align-items-center">
+
+                        <div class="col-lg-12">
+                            <div class="accordion s2 wow fadeInUp">
+                                <div class="accordion-section faqs">
+                                    <div class="accordion-section-title" data-tab="#accordion-a1">
+                                        Where is The Woods Barog located?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a1">
+                                        <p>The Woods Barog is situated in Barog, a serene and picturesque hill station
+                                            in the Solan district of Himachal Pradesh. It is well-connected, just 60 km
+                                            from Chandigarh and easily accessible from Delhi-NCR via NH-22.</p>
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a2">
+                                        Can non-Himachali buyers purchase apartments in The Woods Barog?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a2">
+                                        <p>Yes, The Woods Barog offers freehold apartments, meaning even non-Himachali
+                                            buyers can legally own property here without any restrictions.</p>
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a3">
+                                        What types of apartments are available?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a3">
+                                        <p>The project offers premium 1 & 2 BHK apartments with modern amenities. The
+                                            buildings are either Ground + 3 floors or 6 floors, ensuring a comfortable
+                                            and luxurious living experience.</p>
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a4">
+                                        What amenities are provided in The Woods Barog?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a4">
+                                        <p>The property includes open parking, modern elevators, a gym, jacuzzi, table
+                                            tennis, landscaped greens, and a daily-needs shopping area nearby.
+                                            Additionally, it features rainwater harvesting and 78% open space, promoting
+                                            a green and sustainable environment.</p>
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a5">
+                                        Why should I choose Barog over Shimla for my second home?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a5">
+                                        <p>Barog offers a quieter, more untouched natural environment compared to
+                                            Shimla, while still being close to major cities. It provides a
+                                            pollution-free atmosphere, beautiful landscapes, and better investment
+                                            potential with growing tourism and infrastructure.</p>
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a6">
+                                        Is The Woods Barog a good investment?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a6">
+                                        <p>Yes! With rapid infrastructure development and increasing demand for second
+                                            homes, investing in The Woods Barog ensures great returns, a peaceful
+                                            retreat, and easy accessibility to Himachal’s scenic beauty.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- faQs -->
+
 
             <!-- footer begin -->
             <footer class="section-dark">
@@ -563,7 +675,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                               
+
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
@@ -596,9 +708,10 @@
                             <div class="col-md-12">
                                 <div class="de-flex">
                                     <div class="de-flex-col">
-                                        &copy;Copyright 2025 - Design by &nbsp;<a href="https://aajneeti.social/"> AajNeeti Advertising</a> 
+                                        &copy;Copyright 2025 - Design by &nbsp;<a href="https://aajneeti.social/">
+                                            AajNeeti Advertising</a>
                                     </div>
-                                    
+
                                     <ul class="menu-simple">
                                         <li><a href="#">Terms &amp; Conditions</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
@@ -673,10 +786,10 @@
 
         <!-- Javascript Files
     ================================================== -->
-      
+
         <script src="js/plugins.js"></script>
         <script src="js/designesia.js"></script>
-       
+
 </body>
 
 </html>
