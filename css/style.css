@@ -12526,8 +12526,7 @@ i.bg-color-secondary {
 
 
 .owl-carousel.no-hide .owl-stage-outer {
-  overflow: visible;
-  !important;
+  overflow: visible!important;
 }
 
 .c-item {
@@ -23724,5 +23723,8 @@ video:hover {
 }
 .accordion-section-content p{
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
+}
+.round{
+  border-radius: 50%;
 }
