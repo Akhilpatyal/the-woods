@@ -14700,6 +14700,9 @@ i.bg-color-secondary {
 .gradient-trans-dark-bottom {
   background: linear-gradient(180deg, rgba(var(--bg-dark-1-rgb), 0) 0%, rgba(var(--bg-dark-1-rgb), 1) 100%);
 }
+.gradient-trans-dark-black {
+  background: linear-gradient(180deg, rgba(0,0,0, 0) 50%, rgba(0,0,0, 1) 100%);
+}
 
 .gradient-trans-color-bottom {
   background: linear-gradient(180deg, rgba(var(--primary-color-rgb), 0) 0%, rgba(var(--primary-color-rgb), 1) 100%);
@@ -24191,4 +24194,9 @@ video:hover {
 }
 .rounded{
   border-radius: 10px;
+}
+
+.brightness {
+  image-rendering: pixelated;
+  filter: brightness(0.8);
 }

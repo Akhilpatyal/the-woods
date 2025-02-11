@@ -349,9 +349,11 @@
            margin:30,
            nav:false,
            dots:false,
-        //    autoplay:{
-        //     delay:3000
-        //    },
+           autoplay: true,
+           // slideTransition: 'linear',
+           autoplayTimeout: 6000,
+           autoplaySpeed: 6000,
+           autoplayHoverPause: false,
            responsive:{
                1000:{
                    items:3
@@ -372,11 +374,11 @@
            margin:0,
            nav:false,
            dots:false,
-           /*autoplay: true,
+           autoplay: true,
             slideTransition: 'linear',
             autoplayTimeout: 6000,
             autoplaySpeed: 6000,
-            autoplayHoverPause: false,*/
+            autoplayHoverPause: false,
            responsive:{
                1000:{
                    items:4
@@ -396,6 +398,11 @@
            margin:30,
            nav:false,
            dots:false,
+           autoplay: true,
+            // slideTransition: 'linear',
+            autoplayTimeout: 6000,
+            autoplaySpeed: 6000,
+            autoplayHoverPause: false,
            responsive:{
                1000:{
                    items:2
