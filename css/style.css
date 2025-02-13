@@ -23967,6 +23967,12 @@ video:hover {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
   }
+  .text-mibile{
+    font-size: 14px;
+  }
+  .padding40 {
+    padding: 30px;
+}
 }
 
 .property-card .property-card-meta span {
