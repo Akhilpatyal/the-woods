@@ -24206,3 +24206,7 @@ video:hover {
   image-rendering: pixelated;
   filter: brightness(0.8);
 }
+.brightness2 {
+  image-rendering: pixelated;
+  filter: brightness(0.8);
+}
