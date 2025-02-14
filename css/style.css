@@ -22985,7 +22985,7 @@ img {
   }
 
   #subheader {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     padding-bottom: 20px;
   }
 
@@ -23357,9 +23357,9 @@ img {
     transform: scale(.25);
   }
 
-  section {
+  /* section {
     padding: 40px 0;
-  }
+  } */
 
   /* #subheader {
     padding-top: 100px;
