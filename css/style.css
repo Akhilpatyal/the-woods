@@ -325,7 +325,7 @@ header.autoshow.scrollOn {
 }
 
 header.autoshow.scrollOff {
-  opacity: ;
+  /* opacity: ; */
   top: -120px;
 }
 
@@ -6488,7 +6488,7 @@ i.font60 {
 
 .ul-style-4 li {
   margin: 2px 0 2px 0;
-  display: ;
+  /* display: ; */
   font-weight: 500;
 }
 
@@ -7107,7 +7107,7 @@ ol.ol-style-1.dark li::before {
 }
 
 .pricing-s2.text-light .top .price,
-.pricing-s2.text-white .top .price,
+.pricing-s2.text-white .top .price
 {
 color: #ffffff;
 }
@@ -12311,7 +12311,7 @@ i.bg-color-secondary {
   white-space: nowrap;
 }
 
-/* 
+
 .de-marquee-list {
   display: flex;
   align-items: top;
@@ -12362,14 +12362,14 @@ i.bg-color-secondary {
   background: -webkit-linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 100%);
   background: -moz-linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 100%);
   background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 100%);
-} */
+}
 
 
 .text-light .de-marquee-list .d-item-dot {
   background: rgba(255, 255, 255, .3);
 }
 
-/* .de-marquee-list.style-2 .d-item-txt {
+.de-marquee-list.style-2 .d-item-txt {
   font-size: 160px;
   background: rgba(255, 255, 255, .2);
   -webkit-background-clip: text;
@@ -12379,7 +12379,7 @@ i.bg-color-secondary {
 .de-marquee-list.style-2 .d-item-dot {
   transform: translateY(-0px);
   background: rgba(255, 255, 255, .2);
-} */
+}
 
 /* marquee */
 
@@ -24209,4 +24209,8 @@ video:hover {
 .brightness2 {
   image-rendering: pixelated;
   filter: brightness(0.8);
+}
+
+.list-unstyled li{
+  font-size: 20px;
 }
