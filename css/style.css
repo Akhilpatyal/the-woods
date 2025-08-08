@@ -683,7 +683,7 @@ header .header-col.mid .social-icons {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+  background: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .2));
 }
 
 .de-overlay-color {
@@ -4204,7 +4204,7 @@ a.btn-sc img {
 
 a.btn-line,
 a.btn-line:hover {
-  background: none;
+  background:#35404e1c;
   color: #35404e;
   border: solid 1px rgba(255, 255, 255, .35);
 }
@@ -23630,22 +23630,23 @@ video:hover {
   position: relative;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 8px 20px rgba(0, 255, 0, 0.4);
-  padding: 20px;
+line-height: 30px;
   border-radius: 10px;
   backdrop-filter: blur(30px);
+  padding:50px 25px;
 }
 
 .test::after {
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: -1;
-  background: rgba(255, 165, 0, 0.2);
-  /* filter: blur(40px);   */
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -21px;
+    left: -10px;
+    z-index: -1;
+    background: rgb(255 165 0 / 12%);
+    filter: blur(13px);
 }
 
 .images {
@@ -23759,7 +23760,7 @@ video:hover {
 
 .property-card-wrap .property-thumb img {
   -webkit-transition: 0.4s;
-  transition: 0.4s;
+  transition: 0.4s all ease-in-out;
 }
 
 @media (max-width: 1199px) {
@@ -24204,7 +24205,7 @@ video:hover {
 
 .brightness {
   image-rendering: pixelated;
-  filter: brightness(0.8);
+  filter: brightness(0.9);
 }
 .brightness2 {
   image-rendering: pixelated;
@@ -24213,4 +24214,12 @@ video:hover {
 
 .list-unstyled li{
   font-size: 20px;
+}
+/* shine */
+.center{
+  object-fit: cover;
+  object-position: center!important;
+}
+.gallerySize{
+  width: 439px;height: 439px;
 }
