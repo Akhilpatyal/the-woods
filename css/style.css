@@ -24223,3 +24223,9 @@ line-height: 30px;
 .gallerySize{
   width: 439px;height: 439px;
 }
+@media (max-width: 768px) {
+  .flex-wrap2{
+    display: flex!important;
+    flex-direction: column!important;
+  }
+}
