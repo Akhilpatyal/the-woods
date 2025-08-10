@@ -4991,7 +4991,7 @@ h2 .small-border {
 
 h2 {
   margin-top: 0;
-  font-size: 52px;
+  font-size: 49px;
   margin-bottom: 20px;
   line-height: 1.1em;
   padding-bottom: 5px;
@@ -24214,6 +24214,7 @@ line-height: 30px;
 
 .list-unstyled li{
   font-size: 20px;
+  font-weight: 500;
 }
 /* shine */
 .center{
@@ -24228,4 +24229,21 @@ line-height: 30px;
     display: flex!important;
     flex-direction: column!important;
   }
+}
+.two-per-row > li {
+  width: 48%; /* Two per row with slight margin */
+  margin-bottom: 1rem; /* spacing between rows */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Optional: Responsive - full width on small screens */
+@media (max-width: 576px) {
+  .two-per-row > li {
+    width: 100%;
+  }
+}
+p{
+  font-size: 18px;
 }
