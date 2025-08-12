@@ -24269,7 +24269,7 @@ p {
 }
 
 /* sticky */
-.Brochure-button {
+/* .Brochure-button {
   position: fixed;
     bottom: 36%;
     right: 0px;
@@ -24289,4 +24289,79 @@ p {
 .Brochure-button:hover{
   color: white!important;
   scale: 1.1;
+} */
+
+.Brochure-button {
+  position: fixed;
+  bottom: 36%;
+  right: 5px;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+ 
+  pointer-events: auto;
+  overflow: hidden;
+  z-index: 1000;
+  background: #e7e7e7; /* base background */
+  border: none;
+  cursor: pointer;
+}
+
+/* Skoll Style */
+.button--skoll {
+  overflow: hidden;
+  color: #fff;
+}
+
+.button--skoll span {
+  display: block;
+  position: relative;
+}
+
+.button--skoll > span {
+  overflow: hidden;
+}
+
+.button--skoll:hover > span > span {
+  animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+color: #000!important;
+}
+
+.button--skoll::before {
+  content: '';
+  background: #354e33; /* animation layer color */
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  transform: translate3d(0,0,0);
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.button--skoll:hover::before {
+  transform: translate3d(0,100%,0);
+}
+
+/* Keyframes for text movement */
+@keyframes MoveUpInitial {
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes MoveUpEnd {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
